@@ -1,0 +1,4 @@
+(executable
+  (name counter_pair)
+	(libraries digestif.c checkseum.c irmin irmin-unix)
+	(modules counter_pair))
